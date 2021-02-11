@@ -1,0 +1,44 @@
+h1{
+    text-align: center;
+}
+h2{
+    font-size: 25px;
+    margin: 5%;
+}
+div{
+    background-color: rgb(247, 239, 171);
+    width: 60%;
+    margin: 20% auto;
+    border: black solid;
+    border-radius: 10px;
+    font-family: 'Sriracha', cursive;
+    height: 870px;
+}
+#EX1,#EX3, #EX5{
+    background-color: rgb(181, 244, 247);
+    width: 40%;
+    height: 35px;
+    margin-left: auto;
+    margin-right: auto; /* Centrer un bloc=> les marges droite et gauche soient égales. La manière de faire cela est de fixer les marges à 'auto'. C'est normalement utilisé avec un bloc de largeur fixe*/
+    font-size: 20px;
+    text-align: center;
+    list-style: none; 
+}
+#EX2,#EX4{
+    background-color: rgb(243, 208, 241);
+    width: 40%;
+    height: 35px;
+    margin: 20px;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    list-style: none;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+li:hover{
+    transform: scale(1.5);
+}
